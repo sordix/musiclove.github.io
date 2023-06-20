@@ -46,19 +46,18 @@ button {
         text-align: center;
         background-color: #f2f2f2;
         font-family: Arial, sans-serif;
-        margin-right: 165px;
     }
   
     h1 {
         font-size: 80px;
         font-family: 'Source Code Pro', monospace;
-        margin-top: 555px;
+        margin-top: 325px;
     }
   
     #qrcode-container {
         margin: 165px auto;
         display: none;
-        margin-left: 45px;
+        margin-left: 120px;
     }
   
     #qrcode {
@@ -88,5 +87,8 @@ button {
     }
     p#contagem-dias {
         font-size: 35px !important;
+        width: 925px !important;
+        overflow-wrap: break-word !important;
+        margin-left: 30px !important;
     }
   }
